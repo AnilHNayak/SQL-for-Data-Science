@@ -7,7 +7,8 @@ SELECT CustomerId,
        Address,
        UPPER(City || " " || Country) AS CityCountry
 FROM Customers
-
+-- above code returns full name and country address to 0,
+-- we can use concat functions 
 ------------------------------------------------------------------------------------
 -- Q2) Create a new employee user id by combining the first 4 letter of the
 -- employee’s first name with the first 2 letters of the employee’s last name. 
